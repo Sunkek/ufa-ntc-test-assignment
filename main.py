@@ -120,3 +120,5 @@ if __name__ == "__main__":
                     for _ in range(int(command)):
                         create_or_update_random_pen(cursor, colors, flavors)
                 print("Готово!")
+            elif int(command) > 20:
+                print("Не более 20 фломастеров за раз!")
